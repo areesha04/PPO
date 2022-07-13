@@ -1,0 +1,5 @@
+You have chosen Metallized 18 ,
+It will take 1.02 days that is 24.56 hours,
+This will utilize machine K5000-4 only, 
+Total production in 2.0 day(s) on k5-4 is: 117262.08,
+K5-4 is enough to produce : 60000.0 kg 

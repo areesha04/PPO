@@ -1,0 +1,108 @@
+['01/05/2022 15:50:03']
+training score: 0.9009985943522834
+testing score: 0.875732728128948
+Train Score: 33193.15 RMSE
+Test Score: 34550.47 RMSE
+
+['02/05/2022 14:16:36']
+training score: 0.8915581982100749
+testing score: 0.8749441814390535
+Train Score: 34739.70 RMSE
+Test Score: 34659.92 RMSE
+
+['02/05/2022 14:33:48']
+training score: 0.8899739361722575
+testing score: 0.8626154854250949
+Train Score: 34992.54 RMSE
+Test Score: 36328.25 RMSE
+
+['02/05/2022 14:42:21']
+training score: 0.8933616403431897
+testing score: 0.8648440852176373
+Train Score: 34449.62 RMSE
+Test Score: 36032.40 RMSE
+
+['02/05/2022 14:51:11']
+training score: 0.9011020038823364
+testing score: 0.8740999722085834
+Train Score: 33175.81 RMSE
+Test Score: 34776.71 RMSE
+
+['02/05/2022 14:56:45']
+training score: 0.8928557266383104
+testing score: 0.8697899578719357
+Train Score: 34531.24 RMSE
+Test Score: 35366.97 RMSE
+
+['02/05/2022 17:11:01']
+training score: 0.8955577083315676
+testing score: 0.8811632582432081
+Train Score: 34093.06 RMSE
+Test Score: 33787.11 RMSE
+
+['02/05/2022 17:18:02']
+training score: 0.8983440966297196
+testing score: 0.8769509439242845
+Train Score: 33635.20 RMSE
+Test Score: 34380.71 RMSE
+
+['02/05/2022 17:22:07']
+training score: 0.900707066528525
+testing score: 0.8762321058156677
+Train Score: 33241.98 RMSE
+Test Score: 34480.98 RMSE
+
+['02/05/2022 17:29:46']
+training score: 0.8875085617358316
+testing score: 0.8555543725465732
+Train Score: 35382.41 RMSE
+Test Score: 37250.13 RMSE
+
+['02/05/2022 17:39:14']
+training score: 0.8943499943999579
+testing score: 0.876813473037487
+Train Score: 34289.61 RMSE
+Test Score: 34399.90 RMSE
+
+['02/05/2022 20:16:39']
+training score: 0.8905443882526326
+testing score: 0.8625608388887802
+Train Score: 34901.71 RMSE
+Test Score: 36335.48 RMSE
+
+['02/05/2022 20:16:39']
+training score: 0.8783761213012663
+testing score: 0.8610890250451616
+Train Score: 36790.62 RMSE
+Test Score: 36529.52 RMSE
+
+['02/05/2022 20:28:16']
+training score: 0.9095178784627321
+testing score: 0.8857362144589571
+Train Score: 31732.85 RMSE
+Test Score: 33130.65 RMSE
+
+['08/05/2022 17:03:29']
+training score: 0.8929287122045801
+testing score: 0.8711306754495394
+Train Score: 34519.48 RMSE
+Test Score: 35184.42 RMSE
+
+['08/05/2022 17:19:25']
+training score: 0.9015711897423073
+testing score: 0.8832001876126377
+Train Score: 33097.02 RMSE
+Test Score: 33496.29 RMSE
+
+['22/05/2022 02:12:47']
+training score: 0.8800492386188302
+testing score: 0.857124121810837
+Train Score: 36536.69 RMSE
+Test Score: 37047.17 RMSE
+
+['22/05/2022 02:15:24']
+training score: 0.9017000414669837
+testing score: 0.8816591671508585
+Train Score: 33075.35 RMSE
+Test Score: 33716.54 RMSE
+

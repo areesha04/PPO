@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Optimization</title>
+</head>
+
+
+<body>
+   
+    <div class="topnav">
+        <a href="./home">Home</a>
+        <a href="./analysis">Data Analytics</a>
+        <a class="active" href="./optimization">Optimization</a>
+        <a href="./forecast">Forecast</a>
+        <a href="./about">About</a>
+   
+    </div>
+    <h1>Machine Optimization</h1>
+    <br>
+    
+
+    <div class="inputform">
+        <form action="/optimization" method = "POST">
+            <p>Metalized Film Type<input type = "text" name = "material_type"  placeholder="Enter Metalized Film Type"/></p>
+            <p>Despatched Quantity<input type = "text" name = "quantity" placeholder="Enter Quantity in Kgs"/></p>
+            <p> Duration <input type = "text" name = "deadline_days" placeholder="Enter Duration"/></p>
+            <p><input type = "submit" value = "Submit" /></p>
+            
+            <textarea name="output"
+                placeholder="result will be displayed here"
+                rows="15"
+                cols="60">{{result}}abc
+            </textarea>
+        </form>
+    </div>
+    
+</body>
+
+</html>

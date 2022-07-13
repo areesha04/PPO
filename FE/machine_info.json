@@ -1,0 +1,42 @@
+{
+    "Metallized 15": {
+        "Machine K5-4 Output(kg/h)": 1370.25,
+        "Machine K5-2 Output(kg/h)": 913.5
+    },
+    "Metallized 18": {
+        "Machine K5-4 Output(kg/h)": 2442.96,
+        "Machine K5-2 Output(kg/h)": 1526.8500000000001
+    },
+    "Metallized 18 both side treated": {
+        "Machine K5-4 Output(kg/h)": 2442.96,
+        "Machine K5-2 Output(kg/h)": 1526.8500000000001
+    },
+    "Metallized 20": {
+        "Machine K5-4 Output(kg/h)": 2714.4,
+        "Machine K5-2 Output(kg/h)": 1696.5
+    },
+    "Metallized broad seal 15": {
+        "Machine K5-4 Output(kg/h)": 1370.25,
+        "Machine K5-2 Output(kg/h)": 913.5
+    },
+    "Metallized broad seal 18": {
+        "Machine K5-4 Output(kg/h)": 2192.4,
+        "Machine K5-2 Output(kg/h)": 1566.0
+    },
+    "Metallized broad seal high barrier  15": {
+        "Machine K5-4 Output(kg/h)": 1370.25,
+        "Machine K5-2 Output(kg/h)": 913.5
+    },
+    "Metallized broad seal high barrier 18": {
+        "Machine K5-4 Output(kg/h)": 2192.4,
+        "Machine K5-2 Output(kg/h)": 1566.0
+    },
+    "Metallized ultra high barrier 15": {
+        "Machine K5-4 Output(kg/h)": 1174.5,
+        "Machine K5-2 Output(kg/h)": 685.125
+    },
+    "CPP Metallized": {
+        "Machine K5-4 Output(kg/h)": 2700.0,
+        "Machine K5-2 Output(kg/h)": 2250.0
+    }
+}

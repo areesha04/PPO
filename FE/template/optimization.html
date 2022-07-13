@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Optimization</title>
+</head>
+
+
+<body>
+
+    <div class="topnav">
+        <a href="./home">Home</a>
+        <a href="./analysis">Data Analytics</a>
+        <a class="active" href="./optimization">Optimization</a>
+        <a href="./forecast">Forecast</a>
+        <a href="./about">About</a>
+
+    </div>
+    <h1>Machine Optimization</h1>
+    <br>
+
+
+    <div class="inputform">
+        <form action="http://127.0.0.1:3000/optimize" method="POST">
+
+            <label for="material_type">Metallized Film Type:</label>
+            <select name="material_type" id="material_type">
+                <option value="Metallized 15">Metallized 15</option>
+                <option value="Metallized 18">Metallized 18</option>
+                <option value="Metallized 18 both side treated">Metallized 18 both side treated</option>
+                <option value="Metallized 20">Metallized 20</option>
+                <option value="Metallized broad seal 15">Metallized broad seal 15</option>
+                <option value="Metallized broad seal 18">Metallized broad seal 18</option>
+                <option value="Metallized broad seal high barrier  15">Metallized broad seal high barrier  15</option>
+                <option value="Metallized broad seal high barrier 18">Metallized broad seal high barrier 18</option>
+                <option value="Metallized ultra high barrier 15">Metallized ultra high barrier 15</option>
+                <option value="CPP Metallized">CPP Metallized</option>
+            </select>
+
+            <p>Despatched Quantity<input type="text" name="quantity" placeholder="Enter Quantity in Kgs" /></p>
+            <p> Duration <input type="text" name="deadline_days" placeholder="Enter Duration" /></p>
+            <p><input type="submit" value="Enter" /></p>
+
+            <textarea name="output" rows="15" cols="60">{{result}}
+            </textarea>
+        </form>
+    </div>
+
+</body>
+
+</html>

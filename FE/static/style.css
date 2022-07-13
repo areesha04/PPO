@@ -1,0 +1,173 @@
+    /* Add a black background color to the top navigation */
+    .h1{
+        align-content: center;
+    }
+    .topnav {
+        background-color: rgb(214, 216, 221);
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    /* Style the links inside the navigation bar */
+    .inputform{
+        font-size: medium;
+        padding-left: 500px;
+        align-items: center;
+        background-color: rgb(62, 106, 128);
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(25, 92, 122, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        color: aliceblue;
+    }
+    .output{
+        padding: 10px;
+        margin: 5px;
+        background-color: #f3f3f3;
+    }
+   
+    .topnav a {
+        float: left;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 1px;
+    }
+    /* Change the color of links on hover */
+    
+    .topnav a:hover {
+        background-color: rgb(190, 198, 251);
+        color: black;
+    }
+    /* Add a color to the active/current link */
+    
+    .topnav a.active {
+        background-color: #077ac2;
+        color: white;
+    }
+    
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+        padding-top: 10%;
+        background-image: url("../static/logo.jpg");
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: 750px 180px;
+    }
+    
+    .hero-section p {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    
+    .hero-section h1 {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+    
+    .hero-section img {
+        background-size: 10px;
+    }
+    
+    .uploadheader {
+        padding-top: 30px;
+        padding-left: 5px;
+        height: fit-content;
+        width: 32%;
+        font-family: "Muli-Regular";
+        font-weight: lighter;
+        margin-top: -190px;
+        margin-left: 720px;
+        font-size: 15px;
+    }
+    
+    .uploadheader h1 {
+        padding-left: 95px;
+        font-family: 'Muli-Regular';
+        padding-bottom: 20px;
+        font-weight: lighter;
+        color: black;
+        font-size: 40 px;
+    }
+    
+    .icon {
+        padding-left: 100px;
+        align-items: center;
+    }
+    
+    .icon label {
+        background-color: #077ac2;
+        padding-inline: 30;
+        color: white;
+        padding: 10px;
+        font-family: "Muli-Regular";
+        border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        cursor: pointer;
+        margin-left: -4px;
+        border-width: 0px;
+    }
+    
+    .icon #file-chosen {
+        color: #000;
+        margin-left: 10px;
+        font-family: "Muli-Regular";
+        ;
+    }
+    
+    .icon a {
+        color: rgb(61, 90, 255);
+        font-weight: 500;
+    }
+    
+    .icon p {
+        padding-top: 10px;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .chart {
+        padding-left: 30px;
+        height: 140px;
+        width: 45%;
+        font-family: "Muli-Regular";
+        font-weight: lighter;
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 40 px;
+        border-radius: 5px;
+    }
+    
+    .chart h1 {
+        padding-left: 40px;
+        font-family: 'Muli-Regular';
+        padding-bottom: 20px;
+        font-weight: lighter;
+        color: black;
+        font-size: 40 px;
+    }
+    
+    .chart p {
+        padding-top: 10px;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .chart a {
+        background-color: #236c7e;
+        padding-inline: 30;
+        color: white;
+        padding: 10px;
+        font-family: "Muli-Regular";
+        border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        cursor: pointer;
+        margin-left: 55px;
+    }
+    
+    .chart canvas {
+        margin-top: -30px;
+    }
