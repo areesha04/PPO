@@ -38,9 +38,29 @@
                 <option value="CPP Metallized">CPP Metallized</option>
             </select>
 
-            <p>Despatched Quantity<input type="text" name="quantity" placeholder="Enter Quantity in Kgs" /></p>
-            <p> Duration <input type="text" name="deadline_days" placeholder="Enter Duration" /></p>
+            <p id="p01">Dispatched Quantity<input id="qty" type="number" min="0" name="quantity" placeholder="Enter Quantity in Kgs" required/></p>
+
+            <p> Duration <input type="number" name="deadline_days" min="0" placeholder="Enter Duration" required/></p>
+
             <p><input type="submit" value="Enter" /></p>
+            <!-- <script>
+                function myFunction() {
+                  const message = document.getElementById("p01");
+                  message.innerHTML = "";
+                  let x = document.getElementById("qty").value;
+                  try { 
+                    if(x == "")  throw "empty";
+                    if(isNaN(x)) throw "not a number";
+                    x = Number(x);
+                    if(x < 0)  throw "too low";
+                    
+                  }
+                  catch(err) {
+                    message.innerHTML = "Input is " + err;
+                  }
+                }
+                </script> -->
+                
 
             <textarea name="output" rows="15" cols="60">{{result}}
             </textarea>
