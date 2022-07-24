@@ -44,7 +44,7 @@ def uploadfile():
 
 @app.route('/download_sample', methods=['GET'])
 def download_sample_file():
-    return send_file('bisample.xlsx', as_attachment=True)
+    return send_file('production.xlsx', as_attachment=True)
 
 
 @app.route('/train')
